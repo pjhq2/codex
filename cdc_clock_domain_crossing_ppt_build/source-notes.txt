@@ -1,0 +1,17 @@
+Communication job: By the end, RTL/CDC engineers should choose the correct CDC primitive for a signal and identify reconvergence hazards because metastability containment, delivery semantics, and data coherency are separate design problems.
+
+Visual route: bundled Codex Grid layout library. Slide 1 adapts slide-06 (three-column comparison), slide 2 adapts slide-14 (table evidence), and slide 3 adapts slide-05 (two-column explanation). Palette: white, black, pale gray, light blue, blue, with red reserved for unsafe reconvergence states.
+
+Primary technical sources
+- Clifford E. Cummings, Clock Domain Crossing (CDC) Design & Verification Techniques Using SystemVerilog, SNUG Boston 2008: https://www.sunburst-design.com/papers/CummingsSNUG2008Boston_CDC.pdf
+- Clifford E. Cummings, Simulation and Synthesis Techniques for Asynchronous FIFO Design, SNUG San Jose 2002: https://www.sunburst-design.com/papers/CummingsSNUG2002SJ_FIFO1.pdf
+- AMD XPM_CDC_SINGLE, UG953: https://docs.amd.com/r/2021.1-English/ug953-vivado-7series-libraries/XPM_CDC_SINGLE
+- AMD XPM_CDC_ARRAY_SINGLE, PG382: https://docs.amd.com/r/en-US/pg382-xpm-cdc-generator/XPM_CDC_ARRAY_SINGLE
+- AMD XPM_CDC_HANDSHAKE, PG382: https://docs.amd.com/r/en-US/pg382-xpm-cdc-generator/XPM_CDC_HANDSHAKE
+- AMD XPM_FIFO_ASYNC, UG1353: https://docs.amd.com/r/en-US/ug1353-versal-architecture-ai-libraries/XPM_FIFO_ASYNC
+- AMD CDC Rules Precedence, UG906: https://docs.amd.com/r/en-US/ug906-vivado-design-analysis/CDC-Rules-Precedence
+- Intel Dual Clock FIFO Timing Constraints: https://www.intel.com/content/www/us/en/docs/programmable/683082/22-1/dual-clock-fifo-timing-constraints.html
+- Intel Metastability Analysis: https://www.intel.com/content/www/us/en/docs/programmable/683068/18-1/metastability-analysis.html
+- Synopsys, Achieving CDC Signoff on Multi Billion Gate Designs with Hierarchical CDC Flow: https://www.synopsys.com/content/dam/synopsys/verification/white-papers/achieving-cdc-signoff-with-hier-cdc-flow-wp.pdf
+
+No externally sourced visual assets are used. All schematics are editable native PowerPoint shapes created specifically for this deck.
